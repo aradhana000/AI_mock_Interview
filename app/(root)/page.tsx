@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
     <>
     <section className='card-cta'>
@@ -44,4 +44,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Home;
